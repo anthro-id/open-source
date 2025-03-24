@@ -1,0 +1,47 @@
+{
+  "name": "anthroid-open-source-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "keywords": [
+    "anthroid",
+    "anthro-id",
+    "anthro",
+    "furry",
+    "furries",
+    "nerd",
+    "open-source",
+    "opensource",
+    "data",
+    "typescript"
+  ],
+  "author": {
+    "email": "mail@anthro.id",
+    "name": "Anthro.id (Anthro Indonesia)",
+    "url": "https://github.com/anthro-id"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthro-id/open-source"
+  },
+  "contributors": [
+    {
+      "email": "personal@13373333.one",
+      "name": "Ray",
+      "url": "https://13373333.one"
+    }
+  ],
+  "funding": "http://redirect.anthro.id/donate",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af",
+  "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
+    "concurrently": "^9.1.2",
+    "typescript": "^5.8.2"
+  }
+}
